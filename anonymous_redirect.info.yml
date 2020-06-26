@@ -1,0 +1,5 @@
+name: 'Anonymous Redirect Example'
+type: module
+description: 'Redirects all anonymous users to the login page.'
+core_version_requirement: ^9
+package: 'Custom'

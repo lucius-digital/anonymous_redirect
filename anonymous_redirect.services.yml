@@ -1,0 +1,5 @@
+services:
+  anonymous_redirect.main.subscriber:
+    class: Drupal\anonymous_redirect\EventSubscriber\AnonymousRedirectSubscriber
+    tags:
+      - { name: event_subscriber }
